@@ -90,6 +90,37 @@ http://localhost:8501
 ```
 
 ---
+🛠️ Technologies Used
+
+* Python — application logic and data processing.
+* Streamlit — interactive web interface.
+* NCBI PubMed — biomedical research literature source.
+* Biopython Entrez or HTTP requests — PubMed data retrieval, depending on the implementation.
+* Plotly — interactive charts and visualizations.
+* Pandas — data handling, if used in the application.
+
+📖 How to Use the Project
+
+1. Start the application using the installation instructions above.
+2. Enter a gene name, such as BRCA1, TP53, or INS, or a disease name, such as Diabetes or Breast Cancer.
+3. Select the available search mode.
+4. Choose the maximum number of research papers to retrieve.
+5. Run the search and review the results.
+6. Open an article’s abstract to read more details.
+7. Navigate to Publication Trends to explore the available charts.
+8. Open Automated Summary Report to generate and download the report.
+9. Download the CSV dataset if you want to examine the retrieved records separately.
+
+⚠️ Limitations
+
+* Results depend on the availability of records in PubMed and the application’s search logic.
+* Publication charts reflect the data retrieved by the application and may not represent all publications on a topic.
+* Automatically generated summaries should be checked against the original research articles.
+* The application is intended for research-literature exploration and is not a substitute for professional medical advice.
+
+📜 Disclaimer
+
+This project is intended for educational and research purposes. Please consult the original publications when interpreting scientific findings.
 
 ## 🧬 Understanding the Bioinformatics Code (Beginner's Guide)
 
