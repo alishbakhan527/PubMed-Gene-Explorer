@@ -1,0 +1,8 @@
+# PubMed & Gene Explorer - Dependencies
+# Python 3.10+ recommended
+
+streamlit>=1.30.0
+biopython>=1.80
+pandas>=2.0.0
+plotly>=5.15.0
+requests>=2.28.0
