@@ -1,3 +1,4 @@
+
 # 🧬 PubMed & Gene Explorer
 
 An interactive bioinformatics web application designed for BSc Biotechnology students to search scientific literature, retrieve live PubMed research papers via NCBI Entrez, visualize bibliometric publication trends with Plotly, and generate evidence-based research summary reports.
@@ -180,3 +181,9 @@ In scientific research, separating direct factual quotes from speculative interp
 | **HTTP 429 Too Many Requests** | NCBI rate limit reached (>3 requests per second) | Wait 5 seconds and retry, or add a free NCBI API Key in the sidebar under "NCBI Entrez API Settings". |
 | **Zero publications found** | Typo or obscure synonym in search box | Try official HGNC gene symbols (e.g., *TP53* instead of *p53*), or change Search Mode to "All Fields". |
 | **Missing abstracts** | Some older papers or conference notes have no abstract in PubMed | The app gracefully flags these as `"No abstract available for this record"` and allows linking to the full PubMed entry. |
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project helpful for your learning, coursework, or bioinformatics research, please consider giving this repository a **star (⭐)**! It truly motivates continuous improvement and helps other students and researchers find this tool. Thank you for your support and happy exploring!
